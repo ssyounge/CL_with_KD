@@ -1,0 +1,165 @@
+approach,scenario,seed,final_avg_acc_taw,method_type,bic,lamb,T,percentage,val_exemplar_percentage,lwf,integral,damping,freezing,after,eeil,factor,lr_finetuning_factor,finetuning,outputs,ewc,lwm,beta,gamma,icarl,mas,walk,alpha,num_ex_per_class
+path_integral,(5/40-15),0,0.4211,regularization,,0.2,,,,,yes,0.1,,,,,,,,,,,,,,,,0
+lwm,(5/20),0,0.5679,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,2,1,,,,,20
+mas,(5/40-15),0,0.4671,regularization,,5,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+lwf,(5/40-15),0,0.5491,regularization+ kd/replay,,1,4,,,yes,,,,,,,,,,,,,,,,,,20
+freezing,(5/40-15),0,0.4206,baseline,,,,,,,,,yes,3,,,,,,,,,,,,,,0
+bic,(5/20),0,0.5195,kd/replay,yes,-1,2,,0.3,,,,,,,,,,,,,,,,,,,20
+r_walk,(5/40-15),0,0.4444,regularization,,1,,,,,,0.1,,,,,,,,,,,,,,yes,0.3,0
+mas,(5/20),0,0.3915,regularization,,2,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+icarl,(5/20),0,0.5023,kd/replay,,1,,,,,,,,,,,,,,,,,,yes,,,,20
+icarl,(5/20),0,0.4455,kd/replay,,3,,,,,,,,,,,,,,,,,,yes,,,,20
+bic,(5/20),0,0.525,kd/replay,yes,-1,2,,0.1,,,,,,,,,,,,,,,,,,,20
+freezing,(5/40-15),0,0.4727,baseline,,,,,,,,,yes,1,,,,,,,,,,,,,,0
+lwf,(5/20),0,0.521,regularization+ kd/replay,,2,4,,,yes,,,,,,,,,,,,,,,,,,20
+path_integral,(5/20),0,0.3965,regularization,,0.05,,,,,yes,0.1,,,,,,,,,,,,,,,,0
+eeil,(5/20),0,0.5449,kd/replay,,2,3,,,,,,,,yes,,0.02,,,,,,,,,,,20
+eeil,(5/40-15),0,0.5502,kd/replay,,2,3,,,,,,,,yes,,0.02,,,,,,,,,,,20
+ewc,(5/20),0,0.3977,regularization,,5000,,,,,,,,,,,,,,yes,,,,,,,0.5,0
+r_walk,(5/40-15),0,0.4428,regularization,,1,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,0
+lwf,(5/20),0,0.5351,regularization+ kd/replay,,3,3,,,yes,,,,,,,,,,,,,,,,,,20
+mas,(5/40-15),0,0.4488,regularization,,3,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+lwf,(5/40-15),0,0.5613,regularization+ kd/replay,,1,2,,,yes,,,,,,,,,,,,,,,,,,20
+mas,(5/40-15),0,0.4429,regularization,,1,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+lwm,(5/20),0,0.5379,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,1,1,,,,,20
+ewc,(5/40-15),0,0.46,regularization,,10000,,,,,,,,,,,,,,yes,,,,,,,0.5,0
+icarl,(5/20),0,0.4059,kd/replay,,5,,,,,,,,,,,,,,,,,,yes,,,,20
+path_integral,(5/20),0,0.3907,regularization,,0.1,,,,,yes,0.05,,,,,,,,,,,,,,,,0
+lwf,(5/20),0,0.5526,regularization+ kd/replay,,2,2,,,yes,,,,,,,,,,,,,,,,,,20
+mas,(5/20),0,0.3956,regularization,,1,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+path_integral,(5/40-15),0,0.4306,regularization,,0.1,,,,,yes,0.05,,,,,,,,,,,,,,,,0
+r_walk,(5/20),0,0.3926,regularization,,3,,,,,,0.1,,,,,,,,,,,,,,yes,0.6,0
+icarl,(5/20),0,0.4675,kd/replay,,2,,,,,,,,,,,,,,,,,,yes,,,,20
+lwm,(5/20),0,0.5677,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,2,2,,,,,20
+lwf,(5/20),0,0.5249,regularization+ kd/replay,,5,2,,,yes,,,,,,,,,,,,,,,,,,20
+r_walk,(5/20),0,0.3994,regularization,,5,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,0
+ewc,(5/40-15),0,0.4418,regularization,,1000,,,,,,,,,,,,,,yes,,,,,,,0.5,0
+mas,(5/40-15),0,0.4302,regularization,,0.5,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+mas,(5/20),0,0.3914,regularization,,3,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+ewc,(5/40-15),0,0.4299,regularization,,500,,,,,,,,,,,,,,yes,,,,,,,0.5,0
+freezing,(5/40-15),0,0.4403,baseline,,,,,,,,,yes,2,,,,,,,,,,,,,,0
+bic,(5/20),0,0.5376,kd/replay,yes,-1,2,,0.2,,,,,,,,,,,,,,,,,,,20
+lwm,(5/40-15),0,0.5531,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,3,1,,,,,20
+path_integral,(5/40-15),0,0.427,regularization,,0.1,,,,,yes,0.1,,,,,,,,,,,,,,,,0
+path_integral,(5/40-15),0,0.4173,regularization,,0.05,,,,,yes,0.1,,,,,,,,,,,,,,,,0
+r_walk,(5/20),0,0.3907,regularization,,2,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,0
+ewc,(5/20),0,0.4164,regularization,,10000,,,,,,,,,,,,,,yes,,,,,,,0.5,0
+lwf,(5/20),0,0.5389,regularization+ kd/replay,,5,4,,,yes,,,,,,,,,,,,,,,,,,20
+mas,(5/40-15),0,0.4519,regularization,,2,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+mas,(5/20),0,0.3945,regularization,,5,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+bic,(5/40-15),0,0.5321,kd/replay,yes,-1,2,,0.3,,,,,,,,,,,,,,,,,,,20
+r_walk,(5/40-15),0,0.4523,regularization,,2,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,0
+ewc,(5/40-15),0,0.4524,regularization,,5000,,,,,,,,,,,,,,yes,,,,,,,0.5,0
+lwf,(5/40-15),0,0.5504,regularization+ kd/replay,,0.5,2,,,yes,,,,,,,,,,,,,,,,,,20
+path_integral,(5/20),0,0.3841,regularization,,0.1,,,,,yes,0.1,,,,,,,,,,,,,,,,0
+lwf,(5/40-15),0,0.5684,regularization+ kd/replay,,5,2,,,yes,,,,,,,,,,,,,,,,,,20
+eeil,(5/20),0,0.5265,kd/replay,,2,2,,,,,,,,yes,,0.01,,,,,,,,,,,20
+lwm,(5/40-15),0,0.557,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,2,1,,,,,20
+finetuning,(5/20),0,0.3639,baseline,,,,,,,,,,,,,,yes,TRUE,,,,,,,,,0
+icarl,(5/40-15),0,0.4754,kd/replay,,2,,,,,,,,,,,,,,,,,,yes,,,,20
+mas,(5/20),0,0.3971,regularization,,0.5,,,,,,,,,,,,,,,,,,,yes,,0.5,0
+freezing,(5/20),0,0.4102,baseline,,,,,,,,,yes,2,,,,,,,,,,,,,,0
+bic,(5/40-15),0,0.5696,kd/replay,yes,-1,2,,0.1,,,,,,,,,,,,,,,,,,,20
+eeil,(5/40-15),0,0.548,kd/replay,,1,2,,,,,,,,yes,,0.01,,,,,,,,,,,20
+finetuning,(5/40-15),0,0.408,baseline,,,,,,,,,,,,,,yes,,,,,,,,,,0
+ewc,(5/20),0,0.39,regularization,,500,,,,,,,,,,,,,,yes,,,,,,,0.5,0
+lwf,(5/40-15),0,0.5643,regularization+ kd/replay,,5,4,,,yes,,,,,,,,,,,,,,,,,,20
+lwf,(5/40-15),0,0.5367,regularization+ kd/replay,,0.5,4,,,yes,,,,,,,,,,,,,,,,,,20
+eeil,(5/20),0,0.5246,kd/replay,,1,2,,,,,,,,yes,,0.01,,,,,,,,,,,20
+r_walk,(5/40-15),0,0.4487,regularization,,3,,,,,,0.1,,,,,,,,,,,,,,yes,0.6,0
+path_integral,(5/20),0,0.3834,regularization,,0.15,,,,,yes,0.2,,,,,,,,,,,,,,,,0
+eeil,(5/40-15),0,0.5455,kd/replay,,2,2,,,,,,,,yes,,0.01,,,,,,,,,,,20
+lwm,(5/40-15),0,0.5613,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,1,1,,,,,20
+r_walk,(5/40-15),0,0.4591,regularization,,5,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,0
+path_integral,(5/40-15),0,0.411,regularization,,0.15,,,,,yes,0.2,,,,,,,,,,,,,,,,0
+lwf,(5/40-15),0,0.5503,regularization+ kd/replay,,2,4,,,yes,,,,,,,,,,,,,,,,,,20
+finetuning,(5/20),0,0.3899,baseline,,,,,,,,,,,,,,yes,,,,,,,,,,0
+lwm,(5/40-15),0,0.557,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,2,2,,,,,20
+icarl,(5/40-15),0,0.4628,kd/replay,,3,,,,,,,,,,,,,,,,,,yes,,,,20
+r_walk,(5/20),0,0.3812,regularization,,1,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,0
+finetuning,(5/40-15),0,0.3719,baseline,,,,,,,,,,,,,,yes,TRUE,,,,,,,,,0
+eeil,(5/20),0,0.5481,kd/replay,,2,4,,,,,,,,yes,,0.005,,,,,,,,,,,20
+freezing,(5/20),0,0.398,baseline,,,,,,,,,yes,3,,,,,,,,,,,,,,0
+eeil,(5/20),0,0.5298,kd/replay,,1,2,,,,,,,,yes,,0.005,,,,,,,,,,,20
+freezing,(5/20),0,0.4405,baseline,,,,,,,,,yes,1,,,,,,,,,,,,,,0
+lwf,(5/20),0,0.5379,regularization+ kd/replay,,0.5,2,,,yes,,,,,,,,,,,,,,,,,,20
+lwf,(5/20),0,0.5244,regularization+ kd/replay,,1,4,,,yes,,,,,,,,,,,,,,,,,,20
+bic,(5/40-15),0,0.5434,kd/replay,yes,-1,2,,0.2,,,,,,,,,,,,,,,,,,,20
+icarl,(5/40-15),0,0.5044,kd/replay,,1,,,,,,,,,,,,,,,,,,yes,,,,20
+eeil,(5/40-15),0,0.5532,kd/replay,,2,4,,,,,,,,yes,,0.005,,,,,,,,,,,20
+eeil,(5/20),0,0.5304,kd/replay,,1,4,,,,,,,,yes,,0.01,,,,,,,,,,,20
+eeil,(5/40-15),0,0.5533,kd/replay,,1,2,,,,,,,,yes,,0.005,,,,,,,,,,,20
+r_walk,(5/20),0,0.3832,regularization,,1,,,,,,0.1,,,,,,,,,,,,,,yes,0.3,0
+lwf,(5/40-15),0,0.557,regularization+ kd/replay,,2,2,,,yes,,,,,,,,,,,,,,,,,,20
+icarl,(5/40-15),0,0.4216,kd/replay,,5,,,,,,,,,,,,,,,,,,yes,,,,20
+lwm,(5/20),0,0.5346,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,3,1,,,,,20
+eeil,(5/40-15),0,0.5434,kd/replay,,1,4,,,,,,,,yes,,0.01,,,,,,,,,,,20
+path_integral,(5/20),0,0.3863,regularization,,0.2,,,,,yes,0.1,,,,,,,,,,,,,,,,0
+lwf,(5/40-15),0,0.5626,regularization+ kd/replay,,3,3,,,yes,,,,,,,,,,,,,,,,,,20
+lwf,(5/20),0,0.5379,regularization+ kd/replay,,1,2,,,yes,,,,,,,,,,,,,,,,,,20
+lwf,(5/20),0,0.5559,regularization+ kd/replay,,0.5,4,,,yes,,,,,,,,,,,,,,,,,,20
+ewc,(5/20),0,0.4021,regularization,,1000,,,,,,,,,,,,,,yes,,,,,,,0.5,0
+path_integral,(5/40-15),0,0.5223,regularization+ kd/replay,,0.2,,,,,yes,0.1,,,,,,,,,,,,,,,,20
+lwm,(5/20),0,0.5679,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,2,1,,,,,20
+mas,(5/40-15),0,0.5086,regularization+ kd/replay,,5,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+lwf,(5/40-15),0,0.4686,regularization,,1,4,,,yes,,,,,,,,,,,,,,,,,,0
+r_walk,(5/40-15),0,0.5135,regularization+ kd/replay,,1,,,,,,0.1,,,,,,,,,,,,,,yes,0.3,20
+mas,(5/20),0,0.4848,regularization+ kd/replay,,2,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+lwf,(5/20),0,0.4646,regularization,,2,4,,,yes,,,,,,,,,,,,,,,,,,0
+path_integral,(5/20),0,0.5051,regularization+ kd/replay,,0.05,,,,,yes,0.1,,,,,,,,,,,,,,,,20
+ewc,(5/20),0,0.4726,regularization+ kd/replay,,5000,,,,,,,,,,,,,,yes,,,,,,,0.5,20
+r_walk,(5/40-15),0,0.5133,regularization+ kd/replay,,1,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,20
+lwf,(5/20),0,0.4933,regularization,,3,3,,,yes,,,,,,,,,,,,,,,,,,0
+mas,(5/40-15),0,0.5207,regularization+ kd/replay,,3,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+lwf,(5/40-15),0,0.5219,regularization,,1,2,,,yes,,,,,,,,,,,,,,,,,,0
+mas,(5/40-15),0,0.5357,regularization+ kd/replay,,1,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+lwm,(5/20),0,0.5379,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,1,1,,,,,20
+ewc,(5/40-15),0,0.5084,regularization+ kd/replay,,10000,,,,,,,,,,,,,,yes,,,,,,,0.5,20
+path_integral,(5/20),0,0.5088,regularization+ kd/replay,,0.1,,,,,yes,0.05,,,,,,,,,,,,,,,,20
+lwf,(5/20),0,0.5069,regularization,,2,2,,,yes,,,,,,,,,,,,,,,,,,0
+mas,(5/20),0,0.4782,regularization+ kd/replay,,1,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+path_integral,(5/40-15),0,0.5353,regularization+ kd/replay,,0.1,,,,,yes,0.05,,,,,,,,,,,,,,,,20
+r_walk,(5/20),0,0.4627,regularization+ kd/replay,,3,,,,,,0.1,,,,,,,,,,,,,,yes,0.6,20
+lwm,(5/20),0,0.5677,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,2,2,,,,,20
+lwf,(5/20),0,0.5233,regularization,,5,2,,,yes,,,,,,,,,,,,,,,,,,0
+r_walk,(5/20),0,0.463,regularization+ kd/replay,,5,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,20
+ewc,(5/40-15),0,0.527,regularization+ kd/replay,,1000,,,,,,,,,,,,,,yes,,,,,,,0.5,20
+mas,(5/40-15),0,0.5348,regularization+ kd/replay,,0.5,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+mas,(5/20),0,0.4713,regularization+ kd/replay,,3,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+ewc,(5/40-15),0,0.5335,regularization+ kd/replay,,500,,,,,,,,,,,,,,yes,,,,,,,0.5,20
+lwm,(5/40-15),0,0.5531,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,3,1,,,,,20
+path_integral,(5/40-15),0,0.5424,regularization+ kd/replay,,0.1,,,,,yes,0.1,,,,,,,,,,,,,,,,20
+path_integral,(5/40-15),0,0.5455,regularization+ kd/replay,,0.05,,,,,yes,0.1,,,,,,,,,,,,,,,,20
+r_walk,(5/20),0,0.4715,regularization+ kd/replay,,2,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,20
+ewc,(5/20),0,0.4609,regularization+ kd/replay,,10000,,,,,,,,,,,,,,yes,,,,,,,0.5,20
+lwf,(5/20),0,0.4848,regularization,,5,4,,,yes,,,,,,,,,,,,,,,,,,0
+mas,(5/40-15),0,0.5315,regularization+ kd/replay,,2,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+mas,(5/20),0,0.4729,regularization+ kd/replay,,5,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+r_walk,(5/40-15),0,0.5005,regularization+ kd/replay,,2,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,20
+ewc,(5/40-15),0,0.5147,regularization+ kd/replay,,5000,,,,,,,,,,,,,,yes,,,,,,,0.5,20
+lwf,(5/40-15),0,0.4974,regularization,,0.5,2,,,yes,,,,,,,,,,,,,,,,,,0
+path_integral,(5/20),0,0.5089,regularization+ kd/replay,,0.1,,,,,yes,0.1,,,,,,,,,,,,,,,,20
+lwf,(5/40-15),0,0.557,regularization,,5,2,,,yes,,,,,,,,,,,,,,,,,,0
+lwm,(5/40-15),0,0.557,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,2,1,,,,,20
+mas,(5/20),0,0.4919,regularization+ kd/replay,,0.5,,,,,,,,,,,,,,,,,,,yes,,0.5,20
+ewc,(5/20),0,0.489,regularization+ kd/replay,,500,,,,,,,,,,,,,,yes,,,,,,,0.5,20
+lwf,(5/40-15),0,0.5275,regularization,,5,4,,,yes,,,,,,,,,,,,,,,,,,0
+lwf,(5/40-15),0,0.446,regularization,,0.5,4,,,yes,,,,,,,,,,,,,,,,,,0
+r_walk,(5/40-15),0,0.4947,regularization+ kd/replay,,3,,,,,,0.1,,,,,,,,,,,,,,yes,0.6,20
+path_integral,(5/20),0,0.517,regularization+ kd/replay,,0.15,,,,,yes,0.2,,,,,,,,,,,,,,,,20
+lwm,(5/40-15),0,0.5613,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,1,1,,,,,20
+r_walk,(5/40-15),0,0.4954,regularization+ kd/replay,,5,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,20
+path_integral,(5/40-15),0,0.5419,regularization+ kd/replay,,0.15,,,,,yes,0.2,,,,,,,,,,,,,,,,20
+lwf,(5/40-15),0,0.496,regularization,,2,4,,,yes,,,,,,,,,,,,,,,,,,0
+lwm,(5/40-15),0,0.557,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,2,2,,,,,20
+r_walk,(5/20),0,0.4748,regularization+ kd/replay,,1,,,,,,0.1,,,,,,,,,,,,,,yes,0.5,20
+lwf,(5/20),0,0.465,regularization,,0.5,2,,,yes,,,,,,,,,,,,,,,,,,0
+lwf,(5/20),0,0.4493,regularization,,1,4,,,yes,,,,,,,,,,,,,,,,,,0
+r_walk,(5/20),0,0.4665,regularization+ kd/replay,,1,,,,,,0.1,,,,,,,,,,,,,,yes,0.3,20
+lwf,(5/40-15),0,0.5459,regularization,,2,2,,,yes,,,,,,,,,,,,,,,,,,0
+lwm,(5/20),0,0.5346,regularization+ kd/replay,,,,,,,,,,,,,,,,,yes,3,1,,,,,20
+path_integral,(5/20),0,0.5059,regularization+ kd/replay,,0.2,,,,,yes,0.1,,,,,,,,,,,,,,,,20
+lwf,(5/40-15),0,0.5249,regularization,,3,3,,,yes,,,,,,,,,,,,,,,,,,0
+lwf,(5/20),0,0.4931,regularization,,1,2,,,yes,,,,,,,,,,,,,,,,,,0
+lwf,(5/20),0,0.4125,regularization,,0.5,4,,,yes,,,,,,,,,,,,,,,,,,0
+ewc,(5/20),0,0.475,regularization+ kd/replay,,1000,,,,,,,,,,,,,,yes,,,,,,,0.5,20
